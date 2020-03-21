@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/equal_padding"
+    android:paddingTop="@dimen/equal_padding"
+    android:paddingLeft="@dimen/equal_padding"
+    android:paddingRight="@dimen/equal_padding"
+    android:orientation="vertical"
+    tools:context="com.example.bmiapp.MainActivity">
+
+    <TextView
+        android:text="@string/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_marginTop_Text"
+        android:textSize="@dimen/all_text"/>
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:ems="6"
+        android:inputType="number|numberDecimal"
+        android:textSize="@dimen/all_text"/>
+
+    <TextView
+        android:text="@string/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_marginTop_Text"
+        android:textSize="@dimen/all_text"/>
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:ems="6"
+        android:inputType="number|numberDecimal"
+        android:textSize="@dimen/all_text"/>
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:onClick="calculateBMI"
+        android:text="@string/calculateBMI"
+        tools:ignore="OnClick" />
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:textSize="@dimen/all_text"/>
+
+
+</LinearLayout>

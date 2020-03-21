@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/author_page"
+        android:title="@string/author_menu_author"
+        android:onClick="author_page"
+        app:showsAction="never"/>
+    <item android:id="@+id/imperial_page"
+        android:title="@string/author_menu_imperial_page"
+        android:onClick="imperial_page"
+        app:showsAction="never"/>
+    <item android:id="@+id/metric_page"
+        android:title="@string/author_menu_metric_page"
+        android:onClick="Metric_page"
+        app:showsAction="never"/>
+</menu>

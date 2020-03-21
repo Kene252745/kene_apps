@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="weight">Weight[kg]</string>
+    <string name="height">Height[cm]</string>
+    <string name="calculateBMI">Count</string>
+
+
+    <string name="author_page">This BMI App Was Created By Me App Creators Inspired by No one </string>
+
+
+    <string name="very_severely_underweight">Very severely underweight</string>
+    <string name="severely_underweight">Severely underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese_class_i">Obese Moderately</string>
+    <string name="obese_class_ii">Obese Fairly</string>
+    <string name="obese_class_iii">Obese Serverly</string>
+
+    <string name="author_menu_author">Author</string>
+    <string name="author_menu_imperial_page">Imperial Units</string>
+    <string name="author_menu_metric_page">Metric Units</string>
+
+</resources>
