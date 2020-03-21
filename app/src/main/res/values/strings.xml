@@ -8,14 +8,14 @@
     <string name="author_page">This BMI App Was Created By Me App Creators Inspired by No one </string>
 
 
-    <string name="very_severely_underweight">Very severely underweight</string>
-    <string name="severely_underweight">Severely underweight</string>
-    <string name="underweight">Underweight</string>
-    <string name="normal">Normal</string>
-    <string name="overweight">Overweight</string>
-    <string name="obese_class_i">Obese Moderately</string>
-    <string name="obese_class_ii">Obese Fairly</string>
-    <string name="obese_class_iii">Obese Serverly</string>
+    <string name="very_severely_underweight">Very severely underweight, Poor BMI, More Weight needed</string>
+    <string name="severely_underweight">Severely underweight, Please add more weight</string>
+    <string name="underweight">Underweight, Work on your weight</string>
+    <string name="normal">Normal, Good BMI Keep it up </string>
+    <string name="overweight">Overweight, Please you can check your weight, almost there</string>
+    <string name="obese_class_i">Obese Moderately, Your BMI is not bad but you are not far from a normal BMI</string>
+    <string name="obese_class_ii">Obese Fairly, you can exercise and reduce your weight, your BMI is not really cool</string>
+    <string name="obese_class_iii">Obese Severely, Ensure You reduce your weight</string>
 
     <string name="author_menu_author">Author</string>
     <string name="author_menu_imperial_page">Imperial Units</string>
