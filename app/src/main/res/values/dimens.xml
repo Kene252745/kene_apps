@@ -3,5 +3,6 @@
     <dimen name="equal_padding">16dp</dimen>
     <dimen name="all_text">20sp</dimen>
     <dimen name="layout_marginTop">25dp</dimen>
+    <dimen name="author_layout_marginTop">280dp</dimen>
     <dimen name="layout_marginTop_Text">25dp</dimen>
 </resources>

@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -107,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.author_page:
-                Toast.makeText(this, "About the Author", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(this, author.class));
                 return true;
             case R.id.imperial_page:
                 this.convertResult("imperial");

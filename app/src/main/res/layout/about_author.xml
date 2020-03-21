@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/about_author"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/equal_padding"
+    android:paddingTop="@dimen/equal_padding"
+    android:paddingLeft="@dimen/equal_padding"
+    android:paddingRight="@dimen/equal_padding"
+    android:orientation="vertical"
+    tools:context="com.example.bmiapp.MainActivity">
+
+    <TextView
+        android:text="@string/author_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/author_layout_marginTop"
+        android:textSize="@dimen/all_text"/>
+
+
+</LinearLayout>
