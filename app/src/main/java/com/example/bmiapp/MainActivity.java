@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         String weightStr = weight.getText().toString();
         float weightValue = Float.parseFloat(weightStr);
         float heightValue = Float.parseFloat(heightStr);
-        return Float.compare(heightValue, 30) < 0 || "".equals(heightStr) || Float.compare(heightValue, 30) < 0 || "".equals(weightStr);
+        return heightStr == "" ||Float.compare(heightValue, 30) < 0 || !"".equals(heightStr) || weightStr == ""  || Float.compare(weightValue, 10) < 0 || !"".equals(weightStr);
     }
 
     public void calculateBMI(View v) {
