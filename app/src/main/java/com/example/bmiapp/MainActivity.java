@@ -111,21 +111,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, author.class));
                 return true;
             case R.id.imperial_page:
-                this.convertResult("imperial");
-                return true;
-            case R.id.metric_page:
-                this.convertResult("metric");
+                startActivity(new Intent(this, Imperial.class));
+                Toast.makeText(this, "Imperial Units for Americans", Toast.LENGTH_SHORT).show();
                 return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    public void author_page(MenuItem item) {
-        String bmiauthor = ""; {
-            bmiauthor = getString(R.string.author_page) ;
-
-        }
-        author_page.setText(bmiauthor);
     }
 
     private void convertResult(String unit){
